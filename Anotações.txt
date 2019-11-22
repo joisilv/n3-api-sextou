@@ -1,0 +1,20 @@
+npm init
+npm install -D nodemon
+npm install express
+npm install mongoose
+no package.json inserir start e start dev
+incluir .gitignore e escrever dentro do arquivo o node_modules
+criar arquivos server.js
+
+e digitar as informações da porta:
+
+const app = require ('./src/app')
+const port = 3000
+
+app.list(port, () => {
+    console.log (`App rodando na porta ${port}`)
+})
+
+criar pasta src e arquivo app dentro
+
+
